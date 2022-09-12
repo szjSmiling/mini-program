@@ -1,0 +1,49 @@
+{
+	// pages数组中第一项表示应用启动页
+	"pages": [
+    // {
+		// 	"path": "pages/index/index",
+		// },
+		{
+			"path": "pages/social/index",
+			"style": {
+				"navigationBarTitleText": "产业链社群",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Hisun",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 50
+	},
+  "tabBar": {
+    "selectedColor": "#CA2915",
+    "color": "#999999",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "spacing": "11px",
+    "list": [
+      {
+        "pagePath": "pages/social/index",
+        "text": "社群",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      }
+    ]
+  }
+}
